@@ -58,18 +58,16 @@ Because the longest lag is 672 readings, forecasting requires **at least 672 pre
 
 ```text
 .
-├── train.csv                                  # Labeled historical data
-├── steel_energy_forecasting.ipynb             # Notebook workflow for model inference
-├── Steel_Energy_Colab.ipynb                   # Google Colab inference notebook
-├── Winner_to_Steal_PC/                        # Portable trained-model package
-│   ├── inference.py                           # Command-line prediction script
-│   ├── requirements.txt                       # Runtime dependencies
-│   ├── steel_catboost_energy.cbm              # Direct CatBoost model
-│   ├── steel_xgboost_energy.json              # Direct XGBoost model
-│   ├── steel_change_catboost_energy.cbm       # Change-target CatBoost model
-│   └── steel_history_context.csv              # Historical context for lag features
-├── timing_package/                            # Copy of package used for timing tests
-└── output/pdf/                                # Project summary PDF
+├── train.csv                                                 # Labeled historical data          
+├── steel_energy_forecasting_upload_only.ipynb                # Google Colab inference notebook
+├── Winner_to_Steal_PC/                                       
+│   ├── inference.py                                          # Command-line prediction script
+│   ├── requirements.txt                                      # Runtime dependencies
+│   ├── steel_catboost_energy.cbm                             # Direct CatBoost model
+│   ├── steel_xgboost_energy.json                             # Direct XGBoost model
+│   ├── steel_change_catboost_energy.cbm                      # Change-target CatBoost model
+│   └── steel_history_context.csv                             # Historical context for lag features
+                               
 ```
 
 ## Quick start
