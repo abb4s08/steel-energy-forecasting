@@ -10,7 +10,6 @@ The final model was evaluated on a chronological holdout set, so validation resp
 
 | Model | MAE (kWh) | RMSE (kWh) |
 | --- | ---: | ---: |
-| Random Forest baseline | 4.609 | 9.507 |
 | **Three-model ensemble** | **3.843** | **8.116** |
 
 Lower values are better. The ensemble improves MAE by **16.6%** and RMSE by **14.6%** relative to the Random Forest baseline.
